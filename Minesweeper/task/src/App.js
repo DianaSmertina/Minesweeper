@@ -6,6 +6,7 @@ import ControlPanel from "./components/Control-panel/Control-panel";
 function App() {
     return (
     <div className='App'>
+        {sas}
         <ControlPanel />
         <Field />
     </div>

@@ -317,9 +317,9 @@ files:
 - name: src/components/Control-panel/Control-panel.js
   visible: true
   learner_created: true
-feedback_link: https://hyperskill.org/projects/108/stages/587/implement#comment
+feedback_link: https://hyperskill.org/learn/step/9742#comment
 status: Solved
 feedback:
   message: Congratulations!
   time: Tue, 17 May 2022 20:35:48 UTC
-record: -1
+record: 2
