@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Timer = () => {
+const Timer = (props) => {
     return (
-        <span className='timer'>0:00</span>
+        <span className='timer'>{props.time}</span>
     )
 }
 

@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Reset = () => {
+const Reset = (props) => {
     return (
-        <button className='reset-button'>Reset</button>
+        <button className='reset-button' onClick={props.startGame}>Start new game</button>
     )
 }
 
