@@ -398,23 +398,6 @@ files:
 
     export default Field;
   learner_created: true
-- name: src/components/Field/Row.js
-  visible: true
-  text: |
-    import React from 'react';
-    import Cell from './Cell'
-
-    const Row = () => {
-        const cellsArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-        return (
-            <div className='row'>
-                {cellsArray.map((cell)=><Cell key={cell}></Cell>)}
-            </div>
-        )
-    }
-
-    export default Row;
-  learner_created: true
 - name: src/components/Control-panel/Reset.js
   visible: true
   text: |-
@@ -474,6 +457,36 @@ files:
 
     export default Timer;
   learner_created: true
+- name: src/components/Field/target.svg
+  visible: true
+  learner_created: true
+- name: src/components/Field/fired.svg
+  visible: true
+  learner_created: true
+- name: src/components/Field/Column.js
+  visible: true
+  text: |
+    import React from 'react';
+    import Cell from './Cell'
+
+    const Row = () => {
+        const cellsArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        return (
+            <div className='row'>
+                {cellsArray.map((cell)=><Cell key={cell}></Cell>)}
+            </div>
+        )
+    }
+
+    export default Row;
+  learner_created: true
+- name: src/components/flag1.png
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/9743#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: 'Error: Timeout of 30000ms exceeded. For async tests and hooks, ensure
+    "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\ivan\Desktop\Диана\Minesweeper1\Minesweeper\task\test\test.js)'
+  time: Fri, 03 Jun 2022 13:43:03 UTC
 record: -1

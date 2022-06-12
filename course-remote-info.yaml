@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/360753/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Tue, 17 May 2022 21:37:04 UTC
+update_date: Sun, 12 Jun 2022 17:59:10 UTC
 stages:
 - id: 586
   step: 9741
@@ -24,14 +24,14 @@ topics:
   0:
   - title: IDE
     theory_id: 10996
+  - title: Introduction to Operating systems
+    theory_id: 9704
   - title: World Wide Web
     theory_id: 6633
   - title: HyperText Transfer Protocol
     theory_id: 6569
   - title: Comments
     theory_id: 8170
-  - title: Introduction to Operating systems
-    theory_id: 9704
   - title: HTML basics
     theory_id: 6434
   - title: HTTP URL
@@ -70,6 +70,10 @@ topics:
     theory_id: 12691
   - title: Computer programming
     theory_id: 8739
+  - title: Command line overview
+    theory_id: 8977
+  - title: Parameters and Options
+    theory_id: 9746
   - title: Web development
     theory_id: 13931
   - title: Introduction to JavaScript
@@ -78,10 +82,6 @@ topics:
     theory_id: 8154
   - title: Multi-line programs
     theory_id: 8162
-  - title: Command line overview
-    theory_id: 8977
-  - title: Parameters and Options
-    theory_id: 9746
   - title: Libraries
     theory_id: 8504
   - title: Frameworks
@@ -91,8 +91,6 @@ topics:
   1:
   - title: Binary numbers
     theory_id: 5544
-  - title: Hexadecimal numbers
-    theory_id: 8788
   - title: Introduction to UI/UX
     theory_id: 14603
   - title: Layout grids
