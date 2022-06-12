@@ -88,7 +88,7 @@ function App() {
         };
         setMines(fieldArray.map(x => ({bomb: x, flag: false, open: 'cell-none'})));
 
-            let timePassed = 0;
+            let timePassed = 0;  // need to improve
             clearInterval(timer);
             timer = setInterval(() => {
                 timePassed = timePassed + 1;
